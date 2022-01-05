@@ -1,0 +1,13 @@
+.graph-explorer-paper-area--animated {
+    .graph-explorer-overlayed-element {
+        transition: transform 0.5s ease-in-out;
+    }
+    .graph-explorer-link-layer, .graph-explorer-paper-area__widgets {
+        transition: none;
+        opacity: 0;
+    }
+}
+
+.graph-explorer-link-layer, .graph-explorer-paper-area__widgets {
+    transition: opacity 0.5s ease-in-out;
+}

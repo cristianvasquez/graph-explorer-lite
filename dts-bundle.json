@@ -1,0 +1,5 @@
+{
+  "name": "graph-explorer",
+  "main": "dist/temp/dts/index.d.ts",
+  "out": "../../graph-explorer.d.ts"
+}

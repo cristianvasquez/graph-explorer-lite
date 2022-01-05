@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "graph-explorer": "http://graph-explorer.org/schema/v1#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Diagram": "graph-explorer:Diagram",
+    "layoutData": "graph-explorer:layoutData",
+    "linkTypeOptions": "graph-explorer:linkTypeOptions",
+    "Layout": "graph-explorer:Layout",
+    "elements": {
+      "@id": "graph-explorer:hasElement",
+      "@container": "@set"
+    },
+    "links": {
+      "@id": "graph-explorer:hasLink",
+      "@container": "@set"
+    },
+    "Element": "graph-explorer:Element",
+    "iri": {
+      "@id": "graph-explorer:resource",
+      "@type": "@id"
+    },
+    "position": "graph-explorer:position",
+    "x": {
+      "@id": "graph-explorer:xCoordValue"
+    },
+    "y": {
+      "@id": "graph-explorer:yCoordValue"
+    },
+    "size": "graph-explorer:size",
+    "height": {
+      "@id": "graph-explorer:height"
+    },
+    "width": {
+      "@id": "graph-explorer:width"
+    },
+    "isExpanded": {
+      "@id": "graph-explorer:isExpanded"
+    },
+    "Link": "graph-explorer:Link",
+    "property": {
+      "@id": "graph-explorer:property",
+      "@type": "@id"
+    },
+    "source": "graph-explorer:source",
+    "target": "graph-explorer:target",
+    "vertices": {
+      "@id": "graph-explorer:vertex",
+      "@container": "@list"
+    },
+    "LinkTypeOptions": "graph-explorer:LinkTypeOptions",
+    "visible": "graph-explorer:visible",
+    "showLabel": "graph-explorer:showLabel",
+    "elementState": "graph-explorer:elementState",
+    "linkState": "graph-explorer:linkState"
+  }
+}
